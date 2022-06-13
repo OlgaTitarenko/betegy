@@ -1,0 +1,20 @@
+<%= stylesheet_link_tag 'style.css' %>
+
+<div class="screen-bg"> 
+  <h1><%= @event.name %></h1>
+  <ol class="list">
+    <% @event.players.each do |player| %>
+      <li>
+         <%= player.name %> 
+         <span>
+         $ <%= player.prize_pool %> 
+         </span>
+      </li>
+    <% end %>
+  </ol>
+  <p>
+    <%= @event.entrants %> ENTRIES - $ <%= @event.players.sum(:prize_pool) %>
+  </p>
+</div>
+
+

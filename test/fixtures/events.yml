@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  points: 1.5
+  prize_pool: 1.5
+  buy_in: 1.5
+  entrants: 1
+  date: 2022-06-12
+
+two:
+  points: 1.5
+  prize_pool: 1.5
+  buy_in: 1.5
+  entrants: 1
+  date: 2022-06-12

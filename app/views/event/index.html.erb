@@ -1,0 +1,11 @@
+<h1>Events</h1>
+
+<ul>
+  <% @events.each do |event| %>
+    <li>
+      <a href="/poker/assets/leaderboard/<%= event.id %>">
+        <%= event.name %>
+      </a>
+    </li>
+  <% end %>
+</ul>
